@@ -1,0 +1,11 @@
+project: savantenvs/WechatExporter
+target: fuzz_info_plist
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_info_plist/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/build/fuzz_info_plist
+    libfuzzer: true
+    timeout: 5

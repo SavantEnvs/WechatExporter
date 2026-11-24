@@ -1,0 +1,11 @@
+project: savantenvs/WechatExporter
+target: fuzz_itunes_manifestdb
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_itunes_manifestdb/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/build/fuzz_itunes_manifestdb
+    libfuzzer: true
+    timeout: 5

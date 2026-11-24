@@ -1,0 +1,1 @@
+<sysmsg type="sysmsgtemplate"><sysmsgtemplate><content_template type="tmpl_type_profile"><plain><![CDATA[]]></plain><template><![CDATA["$username$" joined]]></template><link_list><link name="username" type="link_profile"><memberlist><member><username>wxid_bob</username><nickname>Bob</nickname></member></memberlist></link></link_list></content_template></sysmsgtemplate></sysmsg>

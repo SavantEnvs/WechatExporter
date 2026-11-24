@@ -1,0 +1,3 @@
+
+wxid_bob:
+<msg><appmsg appid="" sdkver="0"><title>pat</title><type>62</type><patMsg><chatUser>123456@chatroom</chatUser><records><recordNum>1</recordNum><record><fromUser>wxid_bob</fromUser><pattedUser>wxid_alice</pattedUser><templete><![CDATA["${wxid_bob}" patted "${wxid_alice}"]]></templete></record></records></patMsg></appmsg></msg>

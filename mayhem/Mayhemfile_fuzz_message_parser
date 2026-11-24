@@ -1,0 +1,11 @@
+project: savantenvs/WechatExporter
+target: fuzz_message_parser
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_message_parser/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/build/fuzz_message_parser
+    libfuzzer: true
+    timeout: 5

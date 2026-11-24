@@ -1,0 +1,2 @@
+
+<msg><appmsg appid="" sdkver="0"><title>Chat history</title><des>Alice: hi</des><type>19</type><recorditem><![CDATA[<recordinfo><title>Chat history</title><desc>Alice: hi</desc><datalist count="2"><dataitem datatype="1" dataid="a1"><datadesc>hi</datadesc><sourcename>Alice</sourcename><sourcetime>2021-01-01 10:00</sourcetime></dataitem><dataitem datatype="5" dataid="a2"><datatitle>link</datatitle><link>http://e.com/</link><sourcename>Bob</sourcename><sourcetime>2021-01-01 10:01</sourcetime></dataitem></datalist></recordinfo>]]></recorditem></appmsg></msg>
